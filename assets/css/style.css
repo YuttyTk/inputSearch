@@ -49,7 +49,7 @@ display: none; /* Escondendo a lupa branca */
 
 .search-box:hover > .search-text {
     /* Quando passo o mouse por cima do botão o input recebe o tamanhho de 320px */
-    width: 320px;
+    width: 500px;
     padding-left: 20px;
 }
 
@@ -66,4 +66,12 @@ display: none; /* Escondendo a lupa branca */
 .search-box:hover > .search-btn .loupe-white {
     /* Deixando a lupa branca visível */
     display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .search-box:hover > .search-text {
+    /* Quando passo o mouse por cima do botão o input recebe o tamanhho de 320px */
+    width: 200px;
+    padding-left: 10px;
+}
 }
